@@ -78,7 +78,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # heroku
-  config.serve_static_assets = true
+  config.serve_static_files = true
   config.assets.compile = true
   config.action_mailer.default_url_options = { host: 'https://shrouded-peak-30471.herokuapp.com/' }
 end

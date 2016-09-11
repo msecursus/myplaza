@@ -7,24 +7,18 @@
   <%= csrf_meta_tags %>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 </head>
+<style>
+	
+  </style>
 <body>
 <%= render 'layouts/nav' %>
 
 <div class="container">
-<% if flash[:notice] %>
 
-    <div id="flashy"><%= bootstrap_flash %></div>
-        
-<% end %>
-<% if flash[:alert] %>
-
-    <div id="flashydiv">
+    
     	<%= bootstrap_flash %>
-    	<p class="flashyp">Try Again</p>
-    </div>
+    	
         
-<% end %>
-
 	<%= yield %>
 </div>
 <%= render 'layouts/foot' %>
