@@ -36,6 +36,7 @@
 		color:#019285;
 	}
 }
+
 /*LISTING PAGES#INDEX ********************************/
 .center{
 	text-align:center;
@@ -69,7 +70,29 @@
 
 	color:#b77812;
 }
+.btn.newpassw{
+	width:100%;
+	background:#F5F5F1;
+	color:#333333;
+
+}
+/*BOOTSTRAP FLASH *********************/
+#flashydiv{
+	width:60%;
+	border:1px solid #fff;
+	margin:auto;
+	margin-bottom:15px;
+	background:#f4fcf6;
+	text-align:center;
+}
+
 /*FORM ITEMS*********************/
 .descr{
 	border:1px solid red;
+}
+.userform{
+	width:75%;
+	 background:#fcf9f9;
+	  padding-bottom:30px;
+	   border:1px solid #fff;
 }
