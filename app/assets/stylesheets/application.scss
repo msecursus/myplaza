@@ -33,7 +33,12 @@
 	.navbar-nav > li > a{
 		font-size:14px;
 		font-weight:bold;
-		color:#019285;
+		/*color:#019285;*/
+		color:lightblue;
+		text-transform: uppercase;
+		letter-spacing:3px;
+		font-size:13px;
+		text-shadow:1px 1px 1px #5b85f7;
 	}
 }
 
