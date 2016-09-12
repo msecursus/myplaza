@@ -42,7 +42,29 @@
 		text-shadow:1px 1px 1px #5b85f7;
 	}
 }
+/*JUMBOTRON ********************************/
+.jumbotron{
+	background-image:url('jumbo1140x247.jpg');
+	h1,h2{
+		font-family:Pacifico;
+		
+	
+	}
+	h1{
+		color:black;
+		margin:10px 0 5px 0;
+	}
+	h2{
+		color:#e5d0d0;
+		background:brown;
+		text-align:center;
+		border:1px solid #fff;
+		padding:5px;
+		width:200px;
+		margin:20px 0 5px 0;
+	}	
 
+}
 /*LISTING PAGES#INDEX ********************************/
 .center{
 	text-align:center;
