@@ -104,6 +104,14 @@
 	color:#333333;
 
 }
+.btn-buy{
+	background:#99c0c4;
+	color:yellow;
+}
+.btn-dismiss{
+	border:5px dashed black;
+	color:#fff;
+}
 /*BOOTSTRAP FLASH *********************/
 #flashydiv{
 	width:60%;
@@ -115,6 +123,7 @@
 }
 .alert-red{
 	background:red;
+	color:#fff;
 }
 /*FORM ITEMS*********************/
 .descr{
