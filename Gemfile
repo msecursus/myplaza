@@ -23,6 +23,8 @@ gem 'will_paginate', '~> 3.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'devise'
+
+gem 'stripe'
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'unicorn'
 # gem 'capistrano-rails', group: :development
