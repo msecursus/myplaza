@@ -1,7 +1,11 @@
 <div class="jumbotron">
-  <h1>Wereldse Produkten</h1>
+
+  
+  <h1>Cristalclear-deals  </h1>
   <h2>Ontdek Uniek</h2>
 </div>
+ 
+
 
 <div class="center">
   <p id="notice"><%= notice %></p>
@@ -24,5 +28,5 @@
 </div>
 <br>
 <% if (user_signed_in?) %>
-  <%= link_to 'New Listing', new_listing_path, class:"btn btn-link" %>
+  <%= link_to 'New Listing', new_listing_path, class:"btn btn-link", data: { no_turbolink: true } %>
 <% end %>
